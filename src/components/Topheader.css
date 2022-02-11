@@ -1,0 +1,38 @@
+.top-header{
+    background-color: var(--color-darkblue);
+}
+
+.top-header .app_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.top-header img{
+    width: 90px;
+}
+
+.app_wrapper .top-link{
+    color: var(--color-white);
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.app_wrapper .top-link:hover{
+    color: var(--color-golden);
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .app_wrapper .top-link{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app_wrapper .top-link{
+        display: none;
+    }
+}
