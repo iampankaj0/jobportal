@@ -67,6 +67,13 @@
     color: var(--color-golden);
 }
 
+@media screen and (max-width: 846px) {
+    .notice-message .notice-board .card,
+    .notice-message .motivate-mess .card{
+        height: 430px;
+    }
+}
+
 @media screen and (max-width: 810px) {
     .notice-message .app_wrapper{
         display: block;
@@ -76,5 +83,9 @@
     }
     .notice-board{
         margin-bottom: 20px;
+    }
+    .notice-message .notice-board .card,
+    .notice-message .motivate-mess .card{
+        height: auto;
     }
 }

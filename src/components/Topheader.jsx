@@ -14,7 +14,7 @@ const Topheader = () => {
                         </Link>
                     </div>
                     <div className="web-link">
-                        <Link className='top-link' to='/'>www.sarkaaripariksha.com</Link>
+                        <Link className='top-link' to='/'> <h1 className='top-link'>www.sarkaaripariksha.com</h1> </Link>
                     </div>
                     <div className="right-logo">
                         <img src={images.RightLogo} alt="right-logo" />
