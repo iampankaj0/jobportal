@@ -160,6 +160,9 @@ ul{
         align-items: center;
         justify-content: space-between;
     }
+    section.nav-sec{
+        padding: 10px 0;
+    }
 }
 
 @media screen and (max-width: 767px) {

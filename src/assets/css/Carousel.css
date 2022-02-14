@@ -1,0 +1,15 @@
+.carousel .thumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .carousel .thumb{
+        display: none;
+    }
+    .carousel .thumbs-wrapper{
+        margin: 0;
+    }
+}

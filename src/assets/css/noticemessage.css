@@ -1,0 +1,80 @@
+.notice-message{
+    background-color: var(--color-blue);
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+.notice-message .app_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.notice-message .notice-board{
+    margin-right: 15px;
+}
+
+.notice-message .notice-board,
+.notice-message .motivate-mess{
+    flex: 1;
+}
+
+.notice-message .notice-board .card,
+.notice-message .motivate-mess .card{
+    border: 1px solid var(--color-white);
+    padding: 0 15px;
+    height: 400px;
+}
+
+.notice-message .notice-board .card marquee{
+    height: 280px;
+}
+
+.notice-message .notice-board .card marquee a{
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--color-white);
+    border-bottom: 1px solid var(--color-golden);
+    text-decoration: none;
+}
+
+.notice-message .notice-board .card marquee a:hover{
+    color: var(--color-golden);
+    border-bottom: 1px solid var(--color-white);
+}
+
+.notice-message h2{
+    text-align: center;
+    color: var(--color-golden);
+    font-size: 25px;
+}
+
+.motivate-mess .motivational-section img{
+    display: block;
+    margin: 0 auto;
+}
+
+.motivate-mess .motivational-section p{
+    text-align: center;
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+.motivate-mess .motivational-section p.writer{
+    font-weight: 700;
+    text-align: right;
+    color: var(--color-golden);
+}
+
+@media screen and (max-width: 810px) {
+    .notice-message .app_wrapper{
+        display: block;
+    }
+    .notice-message .notice-board{
+        margin-right: 0;
+    }
+    .notice-board{
+        margin-bottom: 20px;
+    }
+}

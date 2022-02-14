@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import images from '../constants/images';
 
-import './Topheader.css';
+import '../assets/css/Topheader.css';
 const Topheader = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const Topheader = () => {
                         </Link>
                     </div>
                     <div className="web-link">
-                        <Link className='top-link' to='/'>www.sarkaaricarrier.com</Link>
+                        <Link className='top-link' to='/'>www.sarkaaripariksha.com</Link>
                     </div>
                     <div className="right-logo">
                         <img src={images.RightLogo} alt="right-logo" />
