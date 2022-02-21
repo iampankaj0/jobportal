@@ -1,21 +1,32 @@
-import React from 'react'
+import * as React from 'react';
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import { IoIosArrowDown } from 'react-icons/io';
+import '../../assets/css/Jobsecmobile.css';
 import { Link } from 'react-router-dom';
-import { GrNew } from 'react-icons/gr';
 
 import images from '../../constants/images';
-import '../../assets/css/jobsection.css';
-const jobsection = () => {
+
+export default function Jobsecmobile() {
+    const [expanded, setExpanded] = React.useState(false);
+
+    const handleChange = (panel) => (event, isExpanded) => {
+        setExpanded(isExpanded ? panel : false);
+    };
+
     return (
+
         <>
-            <section className="job-section">
+            <section className="mobile-job-section">
                 <div className="app_wrapper">
-                    <h2 className='heading'> <GrNew /> Sarkaari Pariksha : sarkaaripariksha.Com Sarkari Naukri Latest Jobs Online Form at Sarkaari Pariksha 2022</h2>
-                </div>
-                <div className="app_wrapper">
-                    {/* Result Start */}
-                    <div className="result">
-                        <div className="sec-body">
-                            <h2>Result</h2>
+                    <Accordion className='accor-slide' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+                        <AccordionSummary className='accor-heading' expandIcon={<IoIosArrowDown style={{ color: '#fff' }} fontSize='20' />} aria-controls="panel1bh-content" id="panel1bh-header" >
+                            <h3 sx={{ width: '33%', flexShrink: 0 }}>
+                                Result
+                            </h3>
+                        </AccordionSummary>
+                        <AccordionDetails className='accor-links-sec' >
                             <div className="links">
                                 <ul>
                                     <li> <Link to="/">RBI Office Attendant 2020 Final Result</Link> <img src={images.newBadge} alt="newBadge" /> </li>
@@ -41,14 +52,16 @@ const jobsection = () => {
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    {/* Result Ends */}
+                        </AccordionDetails>
+                    </Accordion>
 
-                    {/* Admit Card Start */}
-                    <div className="admit-card">
-                        <div className="sec-body">
-                            <h2>Admit Card</h2>
+                    <Accordion className='accor-slide' expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+                        <AccordionSummary className='accor-heading' expandIcon={<IoIosArrowDown style={{ color: '#fff' }} fontSize='20' />} aria-controls="panel2bh-content" id="panel2bh-header" >
+                            <h3 sx={{ width: '33%', flexShrink: 0 }}>
+                                Admit Card
+                            </h3>
+                        </AccordionSummary>
+                        <AccordionDetails className='accor-links-sec' >
                             <div className="links">
                                 <ul>
                                     <li> <Link to="/">RPSC RAS 2021 Mains Admit Card</Link> <img src={images.newBadge} alt="newBadge" /> </li>
@@ -74,14 +87,16 @@ const jobsection = () => {
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    {/* Admit Card Ends */}
+                        </AccordionDetails>
+                    </Accordion>
 
-                    {/* Latest Jobs Start */}
-                    <div className="lst-job">
-                        <div className="sec-body">
-                            <h2>Latest Jobs</h2>
+                    <Accordion className='accor-slide' expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+                        <AccordionSummary className='accor-heading' expandIcon={<IoIosArrowDown style={{ color: '#fff' }} fontSize='20' />} aria-controls="panel3bh-content" id="panel3bh-header" >
+                            <h3 sx={{ width: '33%', flexShrink: 0 }}>
+                                Latest Jobs
+                            </h3>
+                        </AccordionSummary>
+                        <AccordionDetails className='accor-links-sec' >
                             <div className="links">
                                 <ul>
                                     <li> <Link to="/">UPRVUNL Various Post Online Form 2022</Link> <img src={images.newBadge} alt="newBadge" /> </li>
@@ -107,16 +122,16 @@ const jobsection = () => {
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    {/* Latest Jobs Ends */}
-                </div>
+                        </AccordionDetails>
+                    </Accordion>
 
-                <div className="app_wrapper">
-                    {/* Answer Key Start */}
-                    <div className="answer-key">
-                        <div className="sec-body">
-                            <h2>Answer Key</h2>
+                    <Accordion className='accor-slide' expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+                        <AccordionSummary className='accor-heading' expandIcon={<IoIosArrowDown style={{ color: '#fff' }} fontSize='20' />} aria-controls="panel4bh-content" id="panel4bh-header" >
+                            <h3 sx={{ width: '33%', flexShrink: 0 }}>
+                                Answer Key
+                            </h3>
+                        </AccordionSummary>
+                        <AccordionDetails className='accor-links-sec' >
                             <div className="links">
                                 <ul>
                                     <li> <Link to="/">RBI Office Attendant 2020 Final Result</Link> <img src={images.newBadge} alt="newBadge" /> </li>
@@ -134,14 +149,16 @@ const jobsection = () => {
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    {/* Answer Key Ends */}
+                        </AccordionDetails>
+                    </Accordion>
 
-                    {/* Important News Start */}
-                    <div className="imp-news">
-                        <div className="sec-body">
-                            <h2>Important</h2>
+                    <Accordion className='accor-slide' expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+                        <AccordionSummary className='accor-heading' expandIcon={<IoIosArrowDown style={{ color: '#fff' }} fontSize='20' />} aria-controls="panel5bh-content" id="panel5bh-header" >
+                            <h3 sx={{ width: '33%', flexShrink: 0 }}>
+                                Important News
+                            </h3>
+                        </AccordionSummary>
+                        <AccordionDetails className='accor-links-sec' >
                             <div className="links">
                                 <ul>
                                     <li> <Link to="/">RPSC RAS 2021 Mains Admit Card</Link> <img src={images.newBadge} alt="newBadge" /> </li>
@@ -159,14 +176,16 @@ const jobsection = () => {
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    {/* Importbt News Ends */}
+                        </AccordionDetails>
+                    </Accordion>
 
-                    {/* Syllabus Start */}
-                    <div className="syllabus">
-                        <div className="sec-body">
-                            <h2>Syllabus</h2>
+                    <Accordion className='accor-slide' expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+                        <AccordionSummary className='accor-heading' expandIcon={<IoIosArrowDown style={{ color: '#fff' }} fontSize='20' />} aria-controls="panel6bh-content" id="panel6bh-header" >
+                            <h3 sx={{ width: '33%', flexShrink: 0 }}>
+                                Syllabus
+                            </h3>
+                        </AccordionSummary>
+                        <AccordionDetails className='accor-links-sec' >
                             <div className="links">
                                 <ul>
                                     <li> <Link to="/">UPRVUNL Various Post Online Form 2022</Link> <img src={images.newBadge} alt="newBadge" /> </li>
@@ -184,14 +203,11 @@ const jobsection = () => {
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    {/* Syllabus Ends */}
-                </div>
+                        </AccordionDetails>
+                    </Accordion>
 
+                </div>
             </section>
         </>
-    )
+    );
 }
-
-export default jobsection;

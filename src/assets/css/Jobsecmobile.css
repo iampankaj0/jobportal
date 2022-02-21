@@ -1,0 +1,81 @@
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.mobile-job-section h3{
+    margin: 10px 0;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+
+.mobile-job-section .accor-slide{
+    margin-bottom: 15px;
+}
+
+.accor-links-sec{
+    border: 1px solid var(--color-golden);
+}
+
+
+
+
+.mobile-job-section .accor-heading {
+	background: linear-gradient(-45deg, #DCCA87, #394b71);
+	background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.mobile-job-section .links ul{
+    list-style: disc;
+    margin-left: 15px;
+}
+.mobile-job-section .links ul li{
+    margin-bottom: 15px;
+}
+
+.mobile-job-section .view-morebtn {
+    background: var(--color-golden);
+    color: var(--color-white);
+    width: 100%;
+    border: none;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.mobile-job-section .view-morebtn:hover{
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
+@media screen and (min-width: 950px) {
+    .mobile-job-section{
+        display: none;
+    }
+}

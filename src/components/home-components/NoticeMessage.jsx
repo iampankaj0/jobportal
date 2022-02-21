@@ -12,7 +12,7 @@ const NoticeMessage = () => {
                     <div className="notice-board">
                         <div className="card">
                             <h2>Notice Board</h2>
-                            <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+                            <marquee behavior="scroll" direction="up" onmouseover="this.stop();">
                                 <Link to="/">UP Election 2022 Voter Slip Download</Link>
                                 <Link to="/">Aadhar Card Download | Appointment Book | Update | PVC Order | Etc 2022</Link>
                                 <Link to="/"> UP Scholarship 2021 Online Form </Link>

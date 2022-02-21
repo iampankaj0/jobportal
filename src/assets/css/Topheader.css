@@ -46,4 +46,7 @@
     .app_wrapper .top-link {
         font-size: 18px;
     }
+    .top-header img{
+        width: 60px;
+    }
 }

@@ -24,3 +24,10 @@ code {
   --color-darkblue: #394b71;
   --color-blue: #2b74c1;
 }
+
+a.active {
+  background: none;
+}
+a.active:after{
+  content: '';
+}

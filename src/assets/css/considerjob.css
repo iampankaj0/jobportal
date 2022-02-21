@@ -1,0 +1,30 @@
+.consider-job-sec{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.consider-job-sec .app_wrapper{
+    border: 2px solid var(--color-grey);
+}
+
+.consider-job-sec h3{
+    font-size: 25px;
+    background: var(--color-darkblue);
+    color: var(--color-white);
+    margin-top: 0;
+    padding: 10px 7px;
+}
+
+.consider-job-sec p{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .consider-job-sec h3{
+        font-size: 20px;
+    }
+    .consider-job-sec{
+        margin-top: 40px;
+    }
+}
