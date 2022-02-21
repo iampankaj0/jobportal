@@ -1,31 +1,31 @@
-.consider-job-sec{
+.why-us-sec{
     margin-top: 60px;
     text-align: center;
 }
 
-.consider-job-sec .app_wrapper{
+.why-us-sec .app_wrapper{
     border: 2px solid var(--color-grey);
 }
 
-.consider-job-sec h3{
+.why-us-sec h3{
     font-size: 25px;
-    background: var(--color-darkblue);
     color: var(--color-white);
+    background: var(--color-darkblue);
     margin-top: 0;
     padding: 10px 7px;
 }
 
-.consider-job-sec p{
+.why-us-sec p{
     margin-bottom: 20px;
     padding: 0 10px;
 }
 
 
 @media screen and (max-width: 767px) {
-    .consider-job-sec h3{
-        font-size: 20px;
-    }
-    .consider-job-sec{
+    .why-us-sec{
         margin-top: 40px;
+    }
+    .why-us-sec h3{
+        font-size: 20px;
     }
 }
