@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Breadcrumb from './Breadcrumb';
+
 const Notice = () => {
   return (
-    <div>Notice</div>
+    <>
+      <section className="latest-job-bread-sec">
+        <Breadcrumb main='Home' firstlinkname="Notices" />
+      </section>
+    </>
   )
 }
 

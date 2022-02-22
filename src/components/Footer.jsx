@@ -29,7 +29,7 @@ const Footer = () => {
             <h3>More Links</h3>
             <Link to='/latestjob'> Latest Jobs </Link>
             <Link to='/result'> Result </Link>
-            <Link to='/'> About Us </Link>
+            <Link to='/about'> About Us </Link>
             <Link to='/admitcard'> Admit Card </Link>
             <Link to='/answerkey'> Answer Key </Link>
             <Link to='/contact'> Contact Us </Link>

@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Breadcrumb from './Breadcrumb';
+
 const Admitcard = () => {
   return (
-    <div>Admitcard</div>
+    <>
+      <section className="latest-job-bread-sec">
+        <Breadcrumb main='Home' firstlinkname="Admit Card" />
+      </section>
+    </>
   )
 }
 

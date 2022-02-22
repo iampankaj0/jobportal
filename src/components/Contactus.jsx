@@ -1,8 +1,14 @@
 import React from 'react';
+import Breadcrumb from './Breadcrumb';
+
 
 const Contactus = () => {
   return (
-    <div>Contactus</div>
+    <>
+      <section className="latest-job-bread-sec">
+        <Breadcrumb main='Home' firstlinkname="Contact Us" />
+      </section>
+    </>
   )
 }
 

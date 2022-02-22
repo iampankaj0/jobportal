@@ -36,13 +36,11 @@
     .top-header .app_wrapper{
         padding: 0;
     }
-}
-
-@media screen and (max-width: 767px) {
     .top-header .app-logo{
         display: none;
     }
 }
+
 @media screen and (max-width: 600px) {
     .app_wrapper .top-link {
         font-size: 18px;
