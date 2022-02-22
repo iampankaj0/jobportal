@@ -12,12 +12,12 @@ const Footer = () => {
 
           <div className="footer-social-links">
             <h3>Quick Links</h3>
-            <Link to='/'> <span> <FaFacebookSquare fontSize={20} style={{ color: '#f7f7f7', marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Facebook</span> </Link>
-            <Link to='/'> <span> <FaInstagramSquare fontSize={20} style={{ color: '#f7f7f7', marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Instagram</span> </Link>
-            <Link to='/'> <span> <FaTwitterSquare fontSize={20} style={{ color: '#f7f7f7', marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Twitter</span> </Link>
-            <Link to='/'> <span> <FaLinkedin fontSize={20} style={{ color: '#f7f7f7', marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>LinkedIn</span> </Link>
-            <Link to='/'> <span> <FaTelegram fontSize={20} style={{ color: '#f7f7f7', marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Telegram</span> </Link>
-            <Link to='/'> <span> <FaYoutube fontSize={20} style={{ color: '#f7f7f7', marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Youtube</span> </Link>
+            <Link to='/' className='facebook'> <span> <FaFacebookSquare fontSize={20} style={{ marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Facebook</span> </Link>
+            <Link to='/' className='insta'> <span> <FaInstagramSquare fontSize={20} style={{ marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Instagram</span> </Link>
+            <Link to='/' className='twitter'> <span> <FaTwitterSquare fontSize={20} style={{ marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Twitter</span> </Link>
+            <Link to='/' className='linkedin'> <span> <FaLinkedin fontSize={20} style={{ marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>LinkedIn</span> </Link>
+            <Link to='/' className='telegram'> <span> <FaTelegram fontSize={20} style={{ marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Telegram</span> </Link>
+            <Link to='/' className='youtube'> <span> <FaYoutube fontSize={20} style={{ marginRight: '7px', marginBottom: '-4px' }} /> </span> <span>Youtube</span> </Link>
           </div>
 
           <div className="footer-who">

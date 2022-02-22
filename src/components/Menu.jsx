@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import { MdOutlineClose } from 'react-icons/md';
 
 import images from '../constants/images';
 import '../assets/css/Menu.css';
@@ -35,7 +35,7 @@ const Menu = () => {
 
                         {toggleMenu && (
                             <div className="nav-mobile-div slide-bottom">
-                                <MdOutlineRestaurantMenu fontSize={27} className='close_navlinks' onClick={() => setToggleMenu(false)} />
+                                <MdOutlineClose fontSize={27} className='close_navlinks' onClick={() => setToggleMenu(false)} />
                                 <ul className='nav-mobile-links'>
                                     <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/">Home</NavLink> </li>
                                     <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/latestjob">Latest Jobs</NavLink> </li>
