@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/jobportal/static/css/main.ee206a97.css",
-    "main.js": "/jobportal/static/js/main.cad8c901.js",
+    "main.css": "/jobportal/static/css/main.d7dcddff.css",
+    "main.js": "/jobportal/static/js/main.a8c558b7.js",
     "static/media/slide-4.jpg": "/jobportal/static/media/slide-4.bbdd5cf86895f892b128.jpg",
     "static/media/slide-3.jpg": "/jobportal/static/media/slide-3.3e497a1bb94be32ec188.jpg",
     "static/media/slide1.jpg": "/jobportal/static/media/slide1.45cc588b1612da41b77b.jpg",
     "static/media/slide-2.jpg": "/jobportal/static/media/slide-2.2cd33365163645646da4.jpg",
+    "static/media/add3.jpg": "/jobportal/static/media/add3.13db74366a9e9a6c3f2e.jpg",
+    "static/media/add2.gif": "/jobportal/static/media/add2.76dd5aca25379962958c.gif",
+    "static/media/add1.gif": "/jobportal/static/media/add1.ab5397a4281a4c615184.gif",
     "static/media/ssc-logo.png": "/jobportal/static/media/ssc-logo.7fa8eb60abc2d0511819.png",
     "index.html": "/jobportal/index.html",
-    "main.ee206a97.css.map": "/jobportal/static/css/main.ee206a97.css.map",
-    "main.cad8c901.js.map": "/jobportal/static/js/main.cad8c901.js.map"
+    "main.d7dcddff.css.map": "/jobportal/static/css/main.d7dcddff.css.map",
+    "main.a8c558b7.js.map": "/jobportal/static/js/main.a8c558b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee206a97.css",
-    "static/js/main.cad8c901.js"
+    "static/css/main.d7dcddff.css",
+    "static/js/main.a8c558b7.js"
   ]
 }
