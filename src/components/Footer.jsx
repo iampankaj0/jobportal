@@ -35,8 +35,6 @@ const Footer = () => {
             <Link to='/contact'> Contact Us </Link>
           </div>
 
-
-
         </div>
       </section>
     </>
