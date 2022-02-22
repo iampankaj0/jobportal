@@ -1,0 +1,36 @@
+.breadcrumb-section{
+    background: var(--color-black);
+    padding: 15px 0;
+}
+
+.breadcrumb-section ul{
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-section ul li{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: var(--color-golden)
+}
+
+.breadcrumb-section ul li:after{
+    content: '/';
+    color: var(--color-white);
+}
+
+.breadcrumb-section ul li:last-child:after{
+    content: '';
+}
+
+.breadcrumb-section ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    transition: .5s;
+    font-size: 17px;
+}
+
+.breadcrumb-section ul li a:hover{
+    color: var(--color-golden);
+    text-decoration: underline;
+}
