@@ -16,7 +16,7 @@ const Menu = () => {
                 <div className='menu'>
                     <div className="nav-logo">
                         <NavLink to="/" className="nav-link">
-                            <img src={images.Logo} alt="" />
+                            <img src={images.Logo} alt="logo-img" width='118' height='100' />
                         </NavLink>
                     </div>
                     <div className="desktop-links">
