@@ -1,0 +1,85 @@
+.admit-card-links{
+    margin-top: 60px;
+}
+
+.admit-card-links .app_wrapper{
+    display: flex;
+    justify-content: start;
+}
+
+.admit-card-links .inner-admitcard{
+    width: 80%;
+    border: 2px solid var(--color-golden);
+}
+
+.admit-card-links .inner-admitcard ul{
+    padding: 0 15px 15px
+}
+
+.admit-card-links .inner-admitcard ul li{
+    display: flex;
+    padding: 13px 0 0;
+    align-items: self-start;
+}
+
+.admit-card-links .inner-ads-sec{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.admit-card-links .inner-admitcard .heading{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-white);
+    background: var(--color-golden);
+    text-shadow: 3px 2px 3px black;
+}
+
+.admit-card-links .inner-ads-sec img{
+    width: 180px
+}
+
+.admit-card-links .inner-admitcard .right-hand-icon{
+    padding: 3px 10px 0 0;
+    height: auto;
+    width: auto;
+}
+
+
+@media screen and (max-width: 1074px) {
+    .admit-card-links .inner-ads-sec img{
+        width: 160px
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .admit-card-links .inner-ads-sec img{
+        width: 120px
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .admit-card-links{
+        margin-top: 40px;
+    }
+    .admit-card-links .inner-admitcard .heading{
+        font-size: 25px;
+    }
+    .admit-card-links .app_wrapper{
+        display: block;
+    }
+    .admit-card-links .inner-admitcard{
+        width: 100%;
+    }
+    .admit-card-links .inner-ads-sec{
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+}
