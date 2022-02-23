@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jobportal/static/css/main.f42116b5.css",
-    "main.js": "/jobportal/static/js/main.bef117bb.js",
+    "main.css": "/jobportal/static/css/main.1c4447f2.css",
+    "main.js": "/jobportal/static/js/main.2be67a5d.js",
     "static/media/slide-4.jpg": "/jobportal/static/media/slide-4.bbdd5cf86895f892b128.jpg",
     "static/media/slide-3.jpg": "/jobportal/static/media/slide-3.3e497a1bb94be32ec188.jpg",
     "static/media/slide1.jpg": "/jobportal/static/media/slide1.45cc588b1612da41b77b.jpg",
@@ -11,11 +11,11 @@
     "static/media/add1.gif": "/jobportal/static/media/add1.ab5397a4281a4c615184.gif",
     "static/media/ssc-logo.png": "/jobportal/static/media/ssc-logo.7fa8eb60abc2d0511819.png",
     "index.html": "/jobportal/index.html",
-    "main.f42116b5.css.map": "/jobportal/static/css/main.f42116b5.css.map",
-    "main.bef117bb.js.map": "/jobportal/static/js/main.bef117bb.js.map"
+    "main.1c4447f2.css.map": "/jobportal/static/css/main.1c4447f2.css.map",
+    "main.2be67a5d.js.map": "/jobportal/static/js/main.2be67a5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f42116b5.css",
-    "static/js/main.bef117bb.js"
+    "static/css/main.1c4447f2.css",
+    "static/js/main.2be67a5d.js"
   ]
 }
