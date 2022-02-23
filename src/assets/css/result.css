@@ -79,7 +79,7 @@
     }
     .lst-result-sec .app_wrapper .inner-add-section{
         width: 100%;
-        justify-content: center;
+        justify-content: space-around;
         margin-top: 30px;
     }
 }

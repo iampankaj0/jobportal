@@ -22,12 +22,12 @@ const Menu = () => {
                     <div className="desktop-links">
                         <ul>
                             <li> <NavLink exact to="/">Home</NavLink> </li>
-                            <li> <NavLink exact to="/latestjob">Latest Jobs</NavLink> </li>
-                            <li> <NavLink exact to="/admitcard">Admit card</NavLink></li>
-                            <li> <NavLink exact to="/result">Result</NavLink></li>
-                            <li> <NavLink exact to="/answerkey">Answer Keys</NavLink></li>
-                            <li> <NavLink exact to="/notice">Notices</NavLink></li>
-                            <li> <NavLink exact to="/contact">Contact Us</NavLink></li>
+                            <li> <NavLink to="/latestjob">Latest Jobs</NavLink> </li>
+                            <li> <NavLink to="/admitcard">Admit card</NavLink></li>
+                            <li> <NavLink to="/result">Result</NavLink></li>
+                            <li> <NavLink to="/answerkey">Answer Keys</NavLink></li>
+                            <li> <NavLink to="/notice">Notices</NavLink></li>
+                            <li> <NavLink to="/contact">Contact Us</NavLink></li>
                         </ul>
                     </div>
                     <div className="nav-mobile">
@@ -38,12 +38,12 @@ const Menu = () => {
                                 <MdOutlineClose fontSize={27} className='close_navlinks' onClick={() => setToggleMenu(false)} />
                                 <ul className='nav-mobile-links'>
                                     <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/">Home</NavLink> </li>
-                                    <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/latestjob">Latest Jobs</NavLink> </li>
-                                    <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/admitcard">Admit card</NavLink></li>
-                                    <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/result">Result</NavLink></li>
-                                    <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/answerkey">Answer Keys</NavLink></li>
-                                    <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/notice">Notices</NavLink></li>
-                                    <li> <NavLink exact onClick={() => setToggleMenu(false)} to="/contact">Contact Us</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/latestjob">Latest Jobs</NavLink> </li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/admitcard">Admit card</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/result">Result</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/answerkey">Answer Keys</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/notice">Notices</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/contact">Contact Us</NavLink></li>
                                 </ul>
                             </div>
                         )}

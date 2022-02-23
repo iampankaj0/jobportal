@@ -5,7 +5,7 @@ import '../assets/css/breadcrumb.css';
 
 const Breadcrumb = ({ main, firstlinkname, secondlinkname }) => (
     <>
-        <section class="breadcrumb-section">
+        <section className="breadcrumb-section">
             <div className="app_wrapper">
                 <ul>
                     <li> <Link to='/'> {main} </Link> </li> 

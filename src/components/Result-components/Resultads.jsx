@@ -8,6 +8,9 @@ const Resultads = () => {
             <Link to='/'>
                 <img src={images.add1} alt="add-one" />
             </Link>
+            <Link to='/'>
+                <img src={images.add2} alt="add-two" />
+            </Link>
         </>
     )
 }

@@ -37,7 +37,7 @@ const jobsection = () => {
                                     <li> <Link to="/">UPSC Civil Services 2020 Not Qualified Candidate Marks</Link> </li>
                                     <li> <Link to="/">SSC CPO SI 2019 Final Result</Link> </li>
                                 </ul>
-                                <Link to='/'>
+                                <Link to='/result'>
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
@@ -70,7 +70,7 @@ const jobsection = () => {
                                     <li> <Link to="/">DSSSB Exam Date March 2022</Link> </li>
                                     <li> <Link to="/">UPSC IFS 2021 Main Admit Card</Link> </li>
                                 </ul>
-                                <Link to='/'>
+                                <Link to='/admitcard'>
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
@@ -103,7 +103,7 @@ const jobsection = () => {
                                     <li> <Link to="/">East Coast Railway Apprentice Online Form 2022</Link> </li>
                                     <li> <Link to="/">UPPSC Region Inspector 2020 Main Online Form</Link> </li>
                                 </ul>
-                                <Link to='/'>
+                                <Link to='/latestjob'>
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
@@ -130,7 +130,7 @@ const jobsection = () => {
                                     <li> <Link to="/">IBPS SO XI Main Result 2022</Link> </li>
                                     <li> <Link to="/">MPPSC Pre 2020 Result with Score Card</Link> </li>
                                 </ul>
-                                <Link to='/'>
+                                <Link to='/answerkey'>
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>
