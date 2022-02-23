@@ -180,7 +180,7 @@ const jobsection = () => {
                                     <li> <Link to="/">Bihar SHSB CHO Online Form 2022</Link> </li>
                                     <li> <Link to="/">Indian Airforce Apprentice Online Form 2022</Link> </li>
                                 </ul>
-                                <Link to='/'>
+                                <Link to='/syllabus'>
                                     <button type='button' className='view-morebtn'>View More</button>
                                 </Link>
                             </div>

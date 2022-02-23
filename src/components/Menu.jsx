@@ -26,8 +26,8 @@ const Menu = () => {
                             <li> <NavLink to="/admitcard">Admit card</NavLink></li>
                             <li> <NavLink to="/result">Result</NavLink></li>
                             <li> <NavLink to="/answerkey">Answer Keys</NavLink></li>
-                            <li> <NavLink to="/notice">Notices</NavLink></li>
-                            <li> <NavLink to="/contact">Contact Us</NavLink></li>
+                            <li> <NavLink to="/syllabus">Syllabus</NavLink></li>
+                            <li> <NavLink to="/about">About Us</NavLink></li>
                         </ul>
                     </div>
                     <div className="nav-mobile">
@@ -42,8 +42,8 @@ const Menu = () => {
                                     <li> <NavLink onClick={() => setToggleMenu(false)} to="/admitcard">Admit card</NavLink></li>
                                     <li> <NavLink onClick={() => setToggleMenu(false)} to="/result">Result</NavLink></li>
                                     <li> <NavLink onClick={() => setToggleMenu(false)} to="/answerkey">Answer Keys</NavLink></li>
-                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/notice">Notices</NavLink></li>
-                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/contact">Contact Us</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/syllabus">Syllabus</NavLink></li>
+                                    <li> <NavLink onClick={() => setToggleMenu(false)} to="/about">About Us</NavLink></li>
                                 </ul>
                             </div>
                         )}

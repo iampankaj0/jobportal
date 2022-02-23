@@ -6,7 +6,7 @@ const Notice = () => {
   return (
     <>
       <section className="latest-job-bread-sec">
-        <Breadcrumb main='Home' firstlinkname="Notices" />
+        <Breadcrumb main='Home' firstlinkname="Syllabus" />
       </section>
     </>
   )
