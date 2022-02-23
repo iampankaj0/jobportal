@@ -6,7 +6,6 @@
 
 .notice-message .app_wrapper{
     display: flex;
-    align-items: center;
 }
 
 .notice-message .notice-board{
@@ -22,7 +21,7 @@
 .notice-message .motivate-mess .card{
     border: 1px solid var(--color-white);
     padding: 0 15px;
-    height: 400px;
+    height: 100%;
 }
 
 .notice-message .notice-board .card marquee{
@@ -52,6 +51,7 @@
     padding-bottom: 5px;
 }
 
+
 .motivate-mess .motivational-section img{
     display: block;
     margin: 0 auto;
@@ -70,12 +70,12 @@
 }
 
 
-@media screen and (max-width: 846px) {
+/* @media screen and (max-width: 846px) {
     .notice-message .notice-board .card,
     .notice-message .motivate-mess .card{
         height: 430px;
     }
-}
+} */
 
 @media screen and (max-width: 810px) {
     .notice-message .app_wrapper{
@@ -87,8 +87,8 @@
     .notice-board{
         margin-bottom: 20px;
     }
-    .notice-message .notice-board .card,
+    /* .notice-message .notice-board .card,
     .notice-message .motivate-mess .card{
         height: auto;
-    }
+    } */
 }

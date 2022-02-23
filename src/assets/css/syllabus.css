@@ -1,21 +1,34 @@
-.adstop{
+.sylbs-top-ads,
+.syl-links-sec{
     margin-top: 60px;
 }
 
-.adstop .app_wrapper {
+.sylbs-top-ads .app_wrapper{
     display: flex;
     justify-content: center;
 }
 
-.adstop .app_wrapper  img{
+.sylbs-top-ads .app_wrapper img{
     width: 100%;
 }
 
-.ans-key-sec{
-    margin-top: 60px;
+
+.syl-links-sec .app_wrapper{
+    display: flex;
+    justify-content: start;
 }
 
-.ans-key-sec .inner-anskey .heading{
+.syl-links-sec .inner-syllabus ul{
+    padding: 0 15px 15px
+}
+
+.syl-links-sec .inner-syllabus ul li{
+    display: flex;
+    padding: 13px 0 0;
+    align-items: self-start;
+}
+
+.syl-links-sec .inner-syllabus .heading{
     text-align: center;
     font-size: 35px;
     padding: 10px 0 13px;
@@ -26,52 +39,39 @@
     text-shadow: 3px 2px 3px black;
 }
 
-
-.ans-key-sec .app_wrapper{
-    display: flex;
-    justify-content: start;
-}
-
-.ans-key-sec .app_wrapper .inner-anskey{
+.syl-links-sec .inner-syllabus{
     width: 80%;
     border: 2px solid var(--color-golden);
 }
-.ans-key-sec .app_wrapper .inner-adssec{
+
+.syl-links-sec .inner-ads{
     width: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
 }
 
-.ans-key-sec .app_wrapper .inner-anskey ul{
-    padding: 0 15px 15px
-}
-
-.ans-key-sec .app_wrapper .inner-anskey ul li{
-    display: flex;
-    padding: 13px 0 0;
-    align-items: self-start;
-}
-
-.ans-key-sec .app_wrapper .inner-adssec img{
+.syl-links-sec .inner-ads img{
     width: 180px;
 }
 
-.ans-key-sec .inner-anskey .right-hand-icon{
+.syl-links-sec .inner-syllabus .right-hand-icon{
     padding: 3px 10px 0 0;
     height: auto;
     width: auto;
     min-width: max-content;
 }
 
+
+
 @media screen and (max-width: 1074px) {
-    .ans-key-sec .app_wrapper .inner-adssec img{
+    .syl-links-sec .inner-ads img{
         width: 160px
     }
 }
 
 @media screen and (max-width: 960px) {
-    .ans-key-sec .app_wrapper .inner-adssec img{
+    .syl-links-sec .inner-ads img{
         width: 120px
     }
 }
@@ -79,20 +79,21 @@
 
 
 @media screen and (max-width: 767px) {
-    .adstop,
-    .ans-key-sec{
+    .sylbs-top-ads,
+    .syl-links-sec{
         margin-top: 40px;
     }
-    .ans-key-sec .inner-anskey .heading{
+    .syl-links-sec .inner-syllabus .heading{
         font-size: 25px;
     }
-    .ans-key-sec .app_wrapper{
+    .syl-links-sec .app_wrapper{
         display: block;
     }
-    .ans-key-sec .app_wrapper .inner-anskey{
+    .syl-links-sec .inner-syllabus{
         width: 100%;
     }
-    .ans-key-sec .app_wrapper .inner-adssec{
+
+    .syl-links-sec .inner-ads{
         width: 100%;
         justify-content: space-around;
         margin-top: 30px;
