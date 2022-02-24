@@ -3,9 +3,9 @@ import React from 'react'
 const Resourceshelp = () => {
     return (
         <>
-            <section class="consider-job-sec">
-                <div class="app_wrapper">
-                    <h3 class="heading">
+            <section className="consider-job-sec">
+                <div className="app_wrapper">
+                    <h3 className="heading">
                         Sarkaari Pariksha : Resources to Help Indians Get Government Jobs (Sarkaari Job)
                     </h3>
                     <p>The future is uncertain, but a government job, Sarkaari Jobs can help you secure your future. Click for valuable resources and help from Sarkaari Pariksha.</p>

@@ -1,0 +1,174 @@
+.top-cont-ads{
+    margin-top: 60px;
+}
+
+.top-cont-ads .app_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.top-cont-ads .app_wrapper img{
+    width: 100%;
+}
+
+.contact-sec{
+    margin-top: 60px;
+}
+
+.contact-sec .inner-contact .heading{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-white);
+    background: var(--color-golden);
+    text-shadow: 3px 2px 3px black;
+}
+
+.contact-sec .app_wrapper{
+    display: flex;
+    align-items: start;
+}
+
+.contact-sec .inner-contact{
+    width: 80%;
+    border: 2px solid var(--color-golden);
+}
+
+.contact-sec .inner-ads-sec {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.contact-sec .inner-ads-sec img{
+    width: 180px;
+}
+
+.contact-sec .inner-contact .welcome-top,
+.contact-sec .inner-contact .ranking,
+.contact-sec .inner-contact .more-info{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.contact-sec .inner-contact .welcome-top span{
+    color: var(--color-blue);
+    font-weight: 500
+}
+
+.contact-sec .inner-contact .seprator{
+    border-color: var(--color-golden);
+}
+
+.contact-sec .inner-contact .cont-wel{
+    color: var(--color-darkblue);
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.contact-sec .inner-contact  .mail-us{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-sec .inner-contact  .mail-us span{
+    color: var(--color-blue);
+    font-weight: 500;
+}
+
+.contact-sec .inner-contact .benefits{
+    margin: 15px 0;
+    padding: 0 10px;
+}
+
+.contact-sec .inner-contact .benefits h2{
+    color: var(--color-darkblue);
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-sec .inner-contact .benefits p span{
+    font-weight: 500;
+}
+
+.contact-sec .inner-contact .stay-connected h3{
+    font-size: 25px;
+    color: var(--color-darkblue);
+    text-align: center;
+    text-shadow: 1px 2px 2px var(--color-golden);
+}
+
+
+.contact-sec .inner-contact .stay-connected .stay-connect-table tr th{
+    padding: 30px 10px;
+}
+
+
+.contact-sec .inner-contact .stay-connected .stay-connect-table tr th:first-child{
+    color: var(--color-blue);
+}
+
+.contact-sec .inner-contact .stay-connected .stay-connect-table tr:nth-child(4) th:first-child{
+    color: var(--color-darkblue);
+    font-weight: 700;
+    text-shadow: 1px 2px 1px var(--color-white);
+}
+
+
+
+
+@media screen and (max-width: 1074px) {
+    .contact-sec .inner-ads-sec img{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contact-sec .inner-ads-sec img{
+        width: 120px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .contact-sec{
+        margin-top: 40px;
+    }
+    .contact-sec .inner-contact .heading{
+        font-size: 25px;
+    }
+    .top-cont-ads{
+        margin-top: 40px;
+    }
+    .contact-sec .app_wrapper{
+        display: block;
+    }
+    .contact-sec .inner-contact{
+        width: 100%;
+    }
+    .contact-sec .inner-ads-sec {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .contact-sec .inner-contact .welcome-top,
+    .contact-sec .inner-contact .ranking,
+    .contact-sec .inner-contact .more-info{
+        font-size: 22px;
+    }
+    .contact-sec .inner-contact .cont-wel{
+        font-size: 22px;
+    }
+    .contact-sec .inner-contact .benefits h2{
+        font-size: 22px;
+    }
+    .contact-sec .inner-contact .stay-connected h3{
+        font-size: 22px;
+    }
+}
