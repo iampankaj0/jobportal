@@ -82,6 +82,7 @@
     margin-top: 50px;
 }
 
+
 @media screen and (max-width: 950px) {
     .job-section .app_wrapper:nth-child(2),
     .job-section .app_wrapper:nth-child(3){

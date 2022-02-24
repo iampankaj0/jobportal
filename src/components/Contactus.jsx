@@ -46,7 +46,7 @@ const Contactus = () => {
             <hr className='seprator' />
 
             <div className="benefits">
-              <h2>Benefit of Sarkari Pariksha Wensite</h2>
+              <h2>Benefit of Sarkari Pariksha Website</h2>
               <p> <span>Notification Service :</span> After the click ON the Sarkaari Pariksha Website You Get the All Vacancy, Result, Admit Card and Other Information Through Notification / Message.</p>
               <p>Easy to Find Latest Jobs, Sarkari Naukri, Latest Result, Download Admit Card, Answer Key, Syllabus, Exam Pattern, Admission Notification.</p>
             </div>

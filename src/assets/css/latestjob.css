@@ -28,7 +28,7 @@ table {
     width: 100%;
   }
   
-  td{
+td{
     text-align: left;
     padding: 15px 6px;
   }
@@ -59,7 +59,6 @@ thead tr{
     font-size: 20px;
     color: var(--color-darkblue);
 }
-
 
 @media screen and (max-width: 767px) {
     .lst-job-sec{

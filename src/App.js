@@ -13,6 +13,7 @@ import Result from './components/Result';
 import Answerkey from './components/Answerkey';
 import Syllabus from './components/Syllabus';
 import Contactus from './components/Contactus';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -21,7 +22,7 @@ const App = () => {
     <>
       <Topheader />
       <Menu />
-
+      <ScrollToTop />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/latestjob" component={Latestjob} />
