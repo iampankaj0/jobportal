@@ -3,6 +3,7 @@ import '../../../assets/css/latestjobdetail.css';
 import ImportantDates from './ImportantDates';
 import Rightadsec from './Rightadsec';
 import ShortDetailSec from './ShortDetailSec';
+import TotalVacancyDetail from './TotalVacancyDetail';
 import VacancyName from './VacancyName';
 
 const JobDetailSection = () => {
@@ -16,6 +17,7 @@ const JobDetailSection = () => {
             <ShortDetailSec />
             <VacancyName />
             <ImportantDates />
+            <TotalVacancyDetail />
 
           </div>
           <div className="inner-adsection">

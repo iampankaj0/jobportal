@@ -25,10 +25,10 @@ const ImportantDates = () => {
                     <h2>Application Fee</h2>
                     <ul>
                         <li>
-                            <span>General / OBC:</span><span>25/02/2022</span>
+                            <span>General / OBC:</span><span>0/-</span>
                         </li>
                         <li>
-                            <span>SC / ST:</span><span>12/03/2022</span>
+                            <span>SC / ST:</span><span>0/-</span>
                         </li>
                         <li>
                             <span>No Application Fee in Indian Navy SSCO Entry January 2023.</span>
