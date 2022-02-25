@@ -50,7 +50,7 @@ tr:nth-child(even) {
     min-width: max-content;
 }
 
-tbody tr>td:first-child{
+.lst-job-sec  tbody tr>td:first-child{
     display: flex;
 }
 
@@ -78,18 +78,18 @@ thead tr{
 
 
 @media screen and (max-width: 640px) {
-    .responsiveTable td:first-child .tdBefore{
+    .lst-job-sec  .responsiveTable td:first-child .tdBefore{
         display: none;
         width: 0;
     }
-    .responsiveTable td.pivoted:first-child{
+    .lst-job-sec .responsiveTable td.pivoted:first-child{
         padding-left: 0!important;
         line-height: 1.5;
     }
-    .responsiveTable td.pivoted:nth-child(2){
+    .lst-job-sec  .responsiveTable td.pivoted:nth-child(2){
         display: none;
     }
-    .responsiveTable tbody tr{
+    .lst-job-sec  .responsiveTable tbody tr{
         border: none;
     }
     td{
@@ -99,7 +99,7 @@ thead tr{
 
 
 @media screen and (max-width: 600px) {
-    .responsiveTable tbody tr{
+    .lst-job-sec .responsiveTable tbody tr{
         border: none!important;
     }
 }

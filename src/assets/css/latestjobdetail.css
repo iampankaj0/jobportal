@@ -158,12 +158,106 @@
     text-align: center;
     font-weight: 500;
     font-size: 25px;
+    border-bottom: 2px solid var(--color-golden);
+    margin: 0;
+    padding: 30px 10px;
+}
+
+.job-detail .total-vacancy h2 span:last-child{
+    animation: change-color 3s infinite;
+    font-weight: 700;
+}
+
+@keyframes change-color {
+    0% { color: var(--color-golden); }
+    33% { color: var(--color-black); }
+    66% { color: red; }
+    100% { color: var(--color-blue); }
+
+}
+
+.job-detail .total-vacancy h2:nth-child(2){
+    color: var(--color-blue);
+}
+
+.job-detail .responsiveTable tbody tr td:nth-child(odd) {
+    padding: 30px 8px;
 }
 
 
 
+.job-detail .total-vacancy table ul{
+    list-style: disc;
+    margin-left: 15px;
+}
 
 
+.total-vacancy .edu-post-detail-head,
+.total-vacancy .tech-post-detail-head{
+    color: var(--color-darkblue);
+    border-top: 2px solid var(--color-golden);
+}
+
+.total-vacancy tr:nth-child(even) td{
+    border-right: 1px solid var(--color-white)!important;
+}
+.total-vacancy tr:nth-child(even) td:last-child{
+    border: none!important;
+}
+
+.job-detail .how-fill h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 2px solid var(--color-golden);
+    margin: 0;
+    padding: 30px 10px;
+}
+
+.job-detail .how-fill ul{
+    font-size: 18px;
+    list-style: disc;
+    margin-left: 15px;
+    padding: 15px 10px;
+}
+
+.job-detail .how-fill ul li{
+    margin-bottom: 10px
+}
+
+.job-detail .how-fill ul li:last-child{
+    margin-bottom: 0;
+}
+
+.job-detail .important-links h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 2px solid var(--color-golden);
+    margin: 0;
+    padding: 30px 10px;
+}
+
+.job-detail .important-links h2:first-child{
+    border-top: 2px solid var(--color-golden);
+}
+
+.job-detail .important-links h2>span{
+    animation: change-color 3s infinite;
+}
+
+
+.job-detail .important-links td{
+    animation: borderchange 3s infinite;
+    border: 1px solid;
+}
+
+@keyframes borderchange {
+    0% { border: 1px solid red; }
+    20% { border: 1px solid green; }
+    60% { border: 1px solid yellow; }
+    80% { border: 1px solid rgb(225, 0, 255); }
+}
 
 
 
@@ -242,5 +336,35 @@
     .job-detail .important-details{
         display: block;
     }
+    .job-detail .total-vacancy h2,
+    .job-detail .how-fill h2,
+    .job-detail .important-links h2{
+        font-size: 20px;
+    }
 
+}
+
+
+@media screen and (max-width: 640px) {
+    .job-detail .responsiveTable tbody tr {
+        border: none;
+    }
+    .job-detail .responsiveTable td{
+        padding-left: 0!important;
+    }
+    .job-detail .responsiveTable td .tdBefore:after{
+        content: ':'
+    }
+    .job-detail .responsiveTable td .tdBefore {
+        position: unset;
+        display: block;
+        width: fit-content;
+        margin-bottom: 5px;
+    }
+    .job-detail .responsiveTable tbody tr td:nth-child(odd) {
+        padding: 8px;
+    }
+    .total-vacancy tr:nth-child(even) td{
+        border: none!important;
+    }
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../../assets/css/latestjobdetail.css';
+import HowToFill from './HowToFill';
 import ImportantDates from './ImportantDates';
+import ImportantLinks from './ImportantLinks';
 import Rightadsec from './Rightadsec';
 import ShortDetailSec from './ShortDetailSec';
 import TotalVacancyDetail from './TotalVacancyDetail';
@@ -18,6 +20,8 @@ const JobDetailSection = () => {
             <VacancyName />
             <ImportantDates />
             <TotalVacancyDetail />
+            <HowToFill />
+            <ImportantLinks />
 
           </div>
           <div className="inner-adsection">
