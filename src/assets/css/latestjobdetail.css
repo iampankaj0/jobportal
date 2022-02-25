@@ -250,6 +250,12 @@
 .job-detail .important-links td{
     animation: borderchange 3s infinite;
     border: 1px solid;
+    font-size: 20px;
+    padding: 20px 5px;
+}
+.job-detail .important-links td:first-child{
+    font-weight: 700;
+    color: var(--color-blue);
 }
 
 @keyframes borderchange {
@@ -366,5 +372,12 @@
     }
     .total-vacancy tr:nth-child(even) td{
         border: none!important;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .job-detail .important-links td{
+        font-size: 18px;
     }
 }
