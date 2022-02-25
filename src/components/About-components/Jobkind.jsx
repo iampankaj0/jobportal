@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Jobkind = () => {
     return (
         <>
-            <section class="consider-job-sec">
-                <div class="app_wrapper">
-                    <h3 class="heading">
+            <section className="consider-job-sec">
+                <div className="app_wrapper">
+                    <h3 className="heading">
                         What Kind of Government Jobs Can I Get?
                     </h3>
                     <p>There are a wide variety of government jobs in India. It depends on your interests, but a job in the Indian government can range from policy-making, public administration, military, law, engineering, and even teaching. Some of the more highly-paid and in-demand positions are discussed below to give you a sense of their requirements and salary expectations.</p>
@@ -19,4 +19,4 @@ const Jobkind = () => {
     )
 }
 
-export default Jobkind
+export default Jobkind;

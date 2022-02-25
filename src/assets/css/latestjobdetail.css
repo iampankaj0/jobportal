@@ -1,0 +1,219 @@
+.job-detail{
+    margin-top: 60px;
+}
+
+.job-detail .app_wrapper .heading{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-white);
+    background: var(--color-golden);
+    text-shadow: 3px 2px 3px black;
+}
+
+.job-detail .app_wrapper{
+    display: flex;
+    /* align-items: start; */
+}
+
+
+.job-detail .app_wrapper .inner-jobdetail{
+    width: 80%;
+    border: 2px solid var(--color-golden);
+}
+
+.job-detail .app_wrapper .inner-adsection{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.job-detail .app_wrapper .inner-adsection img{
+    width: 180px;
+}
+
+.job-detail .inner-jobdetail .post-details{
+    padding: 0 10px;
+}
+
+.job-detail .inner-jobdetail .post-name,
+.job-detail .inner-jobdetail .post-details p{
+    font-size: 20px;
+    font-weight: normal;
+    display: flex;
+}
+
+.job-detail .inner-jobdetail .post-name>span:first-child,
+.job-detail .inner-jobdetail .post-details p>span:first-child{
+    color: var(--color-blue);
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+
+.job-detail .vacancy-name{
+    border-top: 2px solid var(--color-golden);
+    border-bottom: 2px solid var(--color-golden);
+    padding: 0 10px;
+    text-align: center;
+}
+
+.job-detail .vacancy-name h2{
+    text-align: center;
+    font-size: 35px;
+    color: var(--color-blue);
+    text-shadow: 1px 1px 2px black;
+}
+
+.job-detail .vacancy-name p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.job-detail .vacancy-name p:last-child{
+    margin-bottom: 2.8rem;
+}
+
+.job-detail a{
+    color: var(--color-darkblue);
+}
+
+.job-detail a:hover{
+    color: var(--color-blue);
+    text-decoration: none;
+}
+
+.job-detail .important-details{
+    display: flex;
+    /* padding: 0 10px; */
+    border-bottom: 2px solid var(--color-golden);
+}
+
+.job-detail .important-details>div{
+    flex: 1;
+    border-right: 2px solid var(--color-golden);
+    /* padding: 20px 0; */
+}
+.job-detail .important-details>div:last-child{
+    border: none;
+}
+
+.job-detail .important-details ul{
+    list-style: disc;
+    margin-left: 20px;
+    padding: 20px 10px;
+}
+
+.job-detail .important-details .app-fees ul{
+    padding-left: 10px;
+}
+
+.job-detail .important-details ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.job-detail .important-details ul li:last-child{
+    margin-bottom: 0;
+}
+
+.job-detail .important-details ul li>span:first-child{
+    margin-right: 10px;
+}
+
+.job-detail .important-details h2{
+    color: var(--color-white);
+    background: var(--color-darkblue);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1074px) {
+    .job-detail .app_wrapper .inner-adsection img{
+        width: 160px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .job-detail .inner-jobdetail .post-name,
+    .job-detail .inner-jobdetail .post-details p{
+        border-bottom: 1px solid #bebebe;
+        padding-bottom: 15px;
+    }
+    .job-detail .inner-jobdetail .post-details p:last-child{
+        border-bottom: none;
+    }
+    .job-detail .inner-jobdetail .post-name>span:first-child,
+    .job-detail .inner-jobdetail .post-details p>span:first-child{
+        display: block;
+    }
+    .job-detail .inner-jobdetail .post-name,
+    .job-detail .inner-jobdetail .post-details p{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .job-detail .app_wrapper .inner-adsection img{
+        width: 120px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .job-detail{
+        margin-top: 40px;
+    }
+    .job-detail .app_wrapper .heading{
+        font-size: 25px;
+    }
+    .job-detail .app_wrapper{
+        display: block;
+    }
+    .job-detail .app_wrapper .inner-jobdetail{
+        width: 100%;
+    }
+    .job-detail .app_wrapper .inner-adsection{
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .job-detail .inner-jobdetail .post-name,
+    .job-detail .inner-jobdetail .post-details p{
+        font-size: 18px;
+    }
+    .job-detail .vacancy-name h2{
+        font-size: 25px;
+    }
+    .job-detail .vacancy-name p{
+        font-size: 18px;
+    }
+    .job-detail .vacancy-name p:last-child {
+        margin-bottom: 1.8rem;
+    }
+
+}

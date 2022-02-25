@@ -14,6 +14,12 @@ import Answerkey from './components/Answerkey';
 import Syllabus from './components/Syllabus';
 import Contactus from './components/Contactus';
 import ScrollToTop from './components/ScrollToTop';
+import ResultDetail from './components/Detailed-pages/ResultDetail';
+import LatestJobDetail from './components/Detailed-pages/LatestJobDetail';
+import SyllabusDetail from './components/Detailed-pages/SyllabusDetail';
+import AdmitCardDetail from './components/Detailed-pages/AdmitCardDetail';
+import AnsKeyDetail from './components/Detailed-pages/AnsKeyDetail';
+import ImportantDetail from './components/Detailed-pages/ImportantDetail';
 
 
 
@@ -32,6 +38,13 @@ const App = () => {
         <Route path="/syllabus" component={Syllabus} />
         <Route path="/contact" component={Contactus} />
         <Route path="/about" component={About} />
+        <Route path="/resultdetail" component={ResultDetail} />
+        <Route path="/latestjobdetail" component={LatestJobDetail} />
+        <Route path="/syllabusbsdetail" component={SyllabusDetail} />
+        <Route path="/admitcarddetail" component={AdmitCardDetail} />
+        <Route path="/anskeydetail" component={AnsKeyDetail} />
+        <Route path="/impdetail" component={ImportantDetail} />
+
         <Redirect to='/' />
       </Switch>
 

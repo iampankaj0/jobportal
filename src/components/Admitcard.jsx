@@ -2,7 +2,6 @@ import React from 'react';
 import Admitlinks from './AdmitCard-Component/Admitlinks';
 import Breadcrumb from './Breadcrumb';
 import '../assets/css/admitcard.css';
-import Latestresult from './Result-components/Latestresult';
 import ConsiderJob from './home-components/ConsiderJob';
 import Whyus from './home-components/Whyus';
 import Footer from './Footer';

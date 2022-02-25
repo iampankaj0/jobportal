@@ -55,7 +55,7 @@ const Jobsection = () => {
                                         return (
                                             <>
                                                 <Tr>
-                                                    <Td> <FaRegHandPointRight className='right-hand-icon' /> <Link to="/">{curjob.name} , {curjob.email}</Link> </Td>
+                                                    <Td> <FaRegHandPointRight className='right-hand-icon' /> <Link to="/latestjobdetail">{curjob.name} , {curjob.email}</Link> </Td>
                                                     <Td> {curjob.gender} </Td>
                                                     <Td> {curjob.status} </Td>
                                                 </Tr>

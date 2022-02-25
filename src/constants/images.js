@@ -9,6 +9,8 @@ import Slide4 from '../assets/images/slide-4.jpg';
 import add1 from '../assets/images/add1.gif';
 import add2 from '../assets/images/add2.gif';
 import add3 from '../assets/images/add3.jpg';
+import add4 from '../assets/images/add4.gif';
+import add5 from '../assets/images/add5.png';
 
 
 
@@ -23,5 +25,7 @@ export default {
     Slide4,
     add1,
     add2,
-    add3
+    add3,
+    add4,
+    add5
 }
