@@ -4,7 +4,7 @@ import Footer from '../Footer';
 import ConsiderJob from '../home-components/ConsiderJob';
 import Whyus from '../home-components/Whyus';
 import Bottomadsec from './Latestjobdetail-components/Bottomadsec';
-import JobDetailSection from './Latestjobdetail-components/JobDetailSection';
+import SyllabusDetailSection from './Syllabusdetail-component/SyllabusDetailSection';
 import Topadsec from './Latestjobdetail-components/Topadsec';
 
 const SyllabusDetail = () => {
@@ -16,7 +16,7 @@ const SyllabusDetail = () => {
             </section>
 
             <Topadsec />
-            <JobDetailSection />
+            <SyllabusDetailSection />
             <Bottomadsec />
             <ConsiderJob />
             <Whyus />

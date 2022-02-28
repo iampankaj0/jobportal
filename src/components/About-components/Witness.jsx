@@ -3,9 +3,9 @@ import React from 'react'
 const Witness = () => {
     return (
         <>
-            <section class="consider-job-sec">
-                <div class="app_wrapper">
-                    <h3 class="heading">
+            <section className="consider-job-sec">
+                <div className="app_wrapper">
+                    <h3 className="heading">
                         Sarkaari Pariksha 2022 : SarkaariPariksha.Com
                     </h3>
                     <p>India has witnessed a high demand for Government jobs for many decades. People prefer Government jobs as their career option considering the wide variety of benefits that are associated with these. ‘Sarkari Naukri’ is a dream for millions of people across the nation, and only a few are lucky to land up with such jobs. People tend to take pride in having a Sarkari or Government job.</p>

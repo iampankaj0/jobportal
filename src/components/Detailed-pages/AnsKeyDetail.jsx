@@ -4,7 +4,7 @@ import Footer from '../Footer';
 import ConsiderJob from '../home-components/ConsiderJob';
 import Whyus from '../home-components/Whyus';
 import Bottomadsec from './Latestjobdetail-components/Bottomadsec';
-import JobDetailSection from './Latestjobdetail-components/JobDetailSection';
+import AnskeyDetailSection from './Anskey-components/AnskeyDetailSection';
 import Topadsec from './Latestjobdetail-components/Topadsec';
 
 const AnsKeyDetail = () => {
@@ -17,7 +17,7 @@ const AnsKeyDetail = () => {
 
 
             <Topadsec />
-            <JobDetailSection />
+            <AnskeyDetailSection />
             <Bottomadsec />
             <ConsiderJob />
             <Whyus />

@@ -4,7 +4,7 @@ import Footer from '../Footer';
 import ConsiderJob from '../home-components/ConsiderJob';
 import Whyus from '../home-components/Whyus';
 import Bottomadsec from './Latestjobdetail-components/Bottomadsec';
-import JobDetailSection from './Latestjobdetail-components/JobDetailSection';
+import AdmitDetailSection from './AdmitDetail-Component/AdmitDetailSection';
 import Topadsec from './Latestjobdetail-components/Topadsec';
 
 const AdmitCardDetail = () => {
@@ -16,13 +16,11 @@ const AdmitCardDetail = () => {
             </section>
 
             <Topadsec />
-            <JobDetailSection />
+            <AdmitDetailSection />
             <Bottomadsec />
             <ConsiderJob />
             <Whyus />
             <Footer />
-
-
 
         </div>
     )

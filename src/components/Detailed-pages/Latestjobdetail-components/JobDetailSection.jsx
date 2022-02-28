@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../assets/css/latestjobdetail.css';
+import DetailHeading from './DetailHeading';
 import HowToFill from './HowToFill';
 import ImportantDates from './ImportantDates';
 import ImportantLinks from './ImportantLinks';
@@ -14,7 +15,9 @@ const JobDetailSection = () => {
       <section className="job-detail">
         <div className="app_wrapper">
           <div className="inner-jobdetail">
-            <h1 className="heading">Job Description</h1>
+            {/* <h1 className="heading">Job Description</h1> */}
+
+            <DetailHeading heading='Job Description' />
 
             <ShortDetailSec />
             <VacancyName />
