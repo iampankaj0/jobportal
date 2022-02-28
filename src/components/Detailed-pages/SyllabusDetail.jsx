@@ -1,5 +1,11 @@
 import React from 'react';
 import Breadcrumbthree from '../Breadcrumbthree';
+import Footer from '../Footer';
+import ConsiderJob from '../home-components/ConsiderJob';
+import Whyus from '../home-components/Whyus';
+import Bottomadsec from './Latestjobdetail-components/Bottomadsec';
+import JobDetailSection from './Latestjobdetail-components/JobDetailSection';
+import Topadsec from './Latestjobdetail-components/Topadsec';
 
 const SyllabusDetail = () => {
     return (
@@ -9,7 +15,12 @@ const SyllabusDetail = () => {
                 <Breadcrumbthree main='Home' firstlinkname="Syllabus" link='/syllabus' secondlinkname='You&#x27;re Here' />
             </section>
 
-            SyllabusDetail
+            <Topadsec />
+            <JobDetailSection />
+            <Bottomadsec />
+            <ConsiderJob />
+            <Whyus />
+            <Footer />
 
         </div>
     )

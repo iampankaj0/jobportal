@@ -1,7 +1,7 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import { Thead, Tr, Th, Td, Tbody } from 'react-super-responsive-table';
+import { Tr, Td, Tbody } from 'react-super-responsive-table';
 
 const ImportantLinks = () => {
     return (
@@ -15,11 +15,27 @@ const ImportantLinks = () => {
                 <Table>
                     <Tbody>
                         <Tr>
+                            <Td>Download Answer Key</Td>
+                            <Td> <Link to='/'>Click Here</Link> </Td>
+                        </Tr>
+                        <Tr>
+                            <Td>Download Result</Td>
+                            <Td> <Link to='/'>Click Here</Link> </Td>
+                        </Tr>
+                        <Tr>
+                            <Td>Download Admit Card</Td>
+                            <Td> <Link to='/'>Click Here</Link> </Td>
+                        </Tr>
+                        <Tr>
                             <Td>Apply Online</Td>
                             <Td> <Link to='/'>Click Here</Link> </Td>
                         </Tr>
                         <Tr>
                             <Td>Download Notification</Td>
+                            <Td> <Link to='/'>Click Here</Link> </Td>
+                        </Tr>
+                        <Tr>
+                            <Td>Download Syllabus</Td>
                             <Td> <Link to='/'>Click Here</Link> </Td>
                         </Tr>
                         <Tr>
