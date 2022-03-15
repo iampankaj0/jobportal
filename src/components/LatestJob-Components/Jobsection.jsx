@@ -17,10 +17,6 @@ const Jobsection = () => {
 
     const getjob = async () => {
         const response = await fetch('https://gorest.co.in/public/v2/users');
-        // setJobdata(await response.json());
-        // console.log(response);
-        // const data = await response.json();
-        // console.log(data);   
         setJobs(await response.json());
     }
 
